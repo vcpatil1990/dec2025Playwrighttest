@@ -17,8 +17,8 @@ test('Get Data from CSV '+record.id, async ({ page }) => {
     await page.locator("//input[@name='username']").fill(record.username);
     await page.waitForTimeout(2000);
     await page.locator("//input[@name='password']").fill(record.password);
-    await page.waitForTimeout(2000);
+    await page.waitForTimeout(4000);
     await page.locator("//button[@id='submit']").click();
-    await page.waitForTimeout(2000);
+    await page.waitForTimeout(3000);
 })
 }
