@@ -1,0 +1,73 @@
+<testsuites id="" name="" tests="2" failures="1" skipped="0" errors="0" time="26.323682">
+<testsuite name="demotest.spec.js" timestamp="2026-02-01T05:47:32.205Z" hostname="chromium" tests="2" failures="1" skipped="0" time="23.668" errors="0">
+<testcase name="First POM Test 1" classname="demotest.spec.js" time="12.582">
+<system-out>
+<![CDATA[Home
+Practice
+Courses
+Blog
+Contact
+
+[[ATTACHMENT|test-results\demotest-First-POM-Test-1-chromium\test-finished-1.png]]
+
+[[ATTACHMENT|test-results\demotest-First-POM-Test-1-chromium\video.webm]]
+
+[[ATTACHMENT|test-results\demotest-First-POM-Test-1-chromium\trace.zip]]
+]]>
+</system-out>
+</testcase>
+<testcase name="First POM Test 2" classname="demotest.spec.js" time="11.086">
+<failure message="demotest.spec.js:14:5 First POM Test 2" type="FAILURE">
+<![CDATA[  [chromium] › demotest.spec.js:14:5 › First POM Test 2 ────────────────────────────────────────────
+
+    Error: expect(locator).toHaveText(expected) failed
+
+    Locator: locator('//h1[text()=\'Logged In Successfully\']')
+    Expected: "Logged out Successfully"
+    Error: element(s) not found
+
+    Call log:
+      - Expect "toHaveText" with timeout 5000ms
+      - waiting for locator('//h1[text()=\'Logged In Successfully\']')
+
+
+       at ..\pages\homepage.js:19
+
+      17 |         }
+      18 |         async checkHeading(expectedtext) {
+    > 19 |             await expect(this.heading).toHaveText(expectedtext);
+         |                                        ^
+      20 |         }
+      21 |
+      22 |
+        at homepage.checkHeading (C:\Users\Shree\Desktop\Dec2025\DEC2025Automation\pages\homepage.js:19:40)
+        at C:\Users\Shree\Desktop\Dec2025\DEC2025Automation\tests\demotest.spec.js:20:14
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    ..\test-results\demotest-First-POM-Test-2-chromium\test-finished-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: trace (application/zip) ─────────────────────────────────────────────────────────
+    ..\test-results\demotest-First-POM-Test-2-chromium\trace.zip
+    Usage:
+
+        npx playwright show-trace ..\test-results\demotest-First-POM-Test-2-chromium\trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+]]>
+</failure>
+<system-out>
+<![CDATA[Home
+Practice
+Courses
+Blog
+Contact
+
+[[ATTACHMENT|test-results\demotest-First-POM-Test-2-chromium\test-finished-1.png]]
+
+[[ATTACHMENT|test-results\demotest-First-POM-Test-2-chromium\trace.zip]]
+]]>
+</system-out>
+</testcase>
+</testsuite>
+</testsuites>

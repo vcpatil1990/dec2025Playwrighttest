@@ -1,0 +1,6 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"","941","Update Data[put method]","chromium","2026-01-17","passed","2026-01-17","","API.spec.js","",""
+"","12694","Get Data from CSV 1","chromium","2026-01-17","passed","2026-01-17","","ReadCSVdata.spec.js","",""
+"","11148","Get Data from CSV 2","chromium","2026-01-17","passed","2026-01-17","","ReadCSVdata.spec.js","",""
+"","990","Create Data[Post method]","chromium","2026-01-17","passed","2026-01-17","","API.spec.js","",""
+"","833","Get Data[GET method]","chromium","2026-01-17","passed","2026-01-17","","API.spec.js","",""

@@ -1,0 +1,13 @@
+{
+  id: 'ff8081819782e69e019bcbaa8a5069f6',
+  name: 'Vivo v50',
+  updatedAt: '2026-01-17T11:33:34.171+00:00',
+  data: {
+    year: 2050,
+    price: 50000,
+    'CPU model': 'Intel Core i15',
+    'Hard disk size': '5 TB',
+    color: 'red',
+    city: 'Pune'
+  }
+}
