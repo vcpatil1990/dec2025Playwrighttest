@@ -18,7 +18,7 @@ test.skip('test 4', async ({ page }) => {
 test.only('test 5', async ({ page }) => {
      //test.slow();
     await page.goto("https://www.amazon.in/");
-  //  await page.waitForTimeout(4000)
+    await page.waitForTimeout(4000)
     console.log('this is test 5')
 })
 
